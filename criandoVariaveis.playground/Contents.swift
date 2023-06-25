@@ -150,6 +150,13 @@ var ageInt2 :Int = Int(age) ?? 0
 print(ageInt2)
 
 
+var inicialPrimeiroName :Character = "G"
+var nomek :String = "Sérgio"
+var apelidok : String = "Sé"
+var idadek : Int = 22
+var gostaSwifit :Bool = true
+
+print("A pessoa que mais gosta da linguagem Swifit é o \(nomek), sua inicial é \(inicialPrimeiroName), e o apelido é \(apelidok), sua idade é : \(idadek). Agora chegou a hora da verdade ele gosta mesmo de swifit? \(gostaSwifit)")
 
 
 

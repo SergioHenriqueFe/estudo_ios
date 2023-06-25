@@ -63,6 +63,9 @@
                                 <state key="normal" title="Cadastrar">
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="tappedRegisterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o3h-HJ-vNb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -91,6 +94,12 @@
                             <constraint firstItem="fjb-Kb-83J" firstAttribute="top" secondItem="yh3-q7-CK3" secondAttribute="bottom" constant="25" id="v7D-f3-vAG"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="yh3-q7-CK3" id="tMq-18-QPL"/>
+                        <outlet property="nameTextField" destination="KcX-2Z-0SF" id="mPE-rz-h0Q"/>
+                        <outlet property="passwordTextField" destination="3zm-Fu-097" id="EFR-Vx-Y4r"/>
+                        <outlet property="registerButton" destination="y6S-kc-h0f" id="xjB-hM-JSD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
