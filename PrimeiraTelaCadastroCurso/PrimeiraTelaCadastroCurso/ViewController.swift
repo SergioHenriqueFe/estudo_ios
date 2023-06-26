@@ -30,6 +30,13 @@ class ViewController: UIViewController  {
         nameTextField.delegate = self
         emailTextField.delegate = self
         passwordTextField.delegate = self
+        
+        // usado para bloquear ação do usuario do botão
+        registerButton.isEnabled = false
+        // para o botão não habilitado
+        registerButton.setTitleColor(.white.withAlphaComponent(0.4), for: .disabled)
+        // para  o botão habilitado
+        registerButton.setTitleColor(.white, for: .normal)
     }
 
     
@@ -37,6 +44,15 @@ class ViewController: UIViewController  {
     @IBAction func tappedRegisterButton(_ sender: UIButton) {
         
     }
+    func validateTExtField(){
+        // validando para ver se os campos não estão vazios
+        if nameTextField.text != "" && emailTextField.text != "" && passwordTextField.text != "" {
+            registerButton.isEnabled = true
+        } else {
+            registerButton.isEnabled = false
+        }
+    }
+    
     
 }
 
@@ -45,7 +61,7 @@ extension ViewController : UITextFieldDelegate {
     func textFieldDidBeginEditing(_ textField: UITextField) {
         //ao inicializar o textfield
         //para colocar um borda em volta do textfield
-        textField.layer.borderColor = UIColor.blue.cgColor
+        textField.layer.borderColor = UIColor.purple.cgColor
         textField.layer.borderWidth = 1
     }
     
@@ -53,12 +69,14 @@ extension ViewController : UITextFieldDelegate {
         //é para quando o teclado desaparece
         //quando o teclado abaixar voltar para borda =
         textField.layer.borderWidth = 0
+        
 }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         //ao clicar no return irá fazer algo
         //para resignfirstResponder() é para abaixar o teclado do celular
         textField.resignFirstResponder()
+        return true
     }
 }
 
