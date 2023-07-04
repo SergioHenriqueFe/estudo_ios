@@ -12,10 +12,35 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     
     override func viewDidLoad() {
+        //viewDidLoad é execultado uma unica vez
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // # print o nome da função
+        print(#function)
     }
-
+    
+    // viewWillAppear toda as vezes que a tela é apresentada ele é chadmado (é um pouco antes de apresentar)
+    // usado para fazer algumas  configurações animações
+    override func viewWillAppear(_ animated: Bool) {
+        print(#function)
+    }
+    
+    // viewDidAppear quando a tela 100% apresentada ele é disparado
+    //GeoLocalização
+    override func viewDidAppear(_ animated: Bool) {
+        print(#function)
+    }
+    
+    //viewWillDisappear é a sainda da tela
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        print(#function)
+        
+    }
+    //para uma anição/ geoLocalização
+    override func viewDidDisappear(_ animated: Bool) {
+        print(#function)
+    }
+    
     @IBAction func tappederGoScreenButton(_ sender: UIButton) {
         // MARK: forma de navegação simples
 //        // as = afirmado que o tela02 é tela02

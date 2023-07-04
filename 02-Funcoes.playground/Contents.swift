@@ -6,7 +6,7 @@ import UIKit
 // para criação de uma função usar :  func nameEspecificoFuncao (parametros) {bloco de código executado pelo compilador}
 
 //MARK: função sem retorno e sem parametro -- estática
-func somaDoisValoresSemRetornoParametro (){
+func somaDoisValoresSemRetornoParametro () {
     var namber01 = 20
     var namber02 = 30
     //print("a soma do número \(namber01) + o número \(namber02) é : " , +namber01 + namber02)

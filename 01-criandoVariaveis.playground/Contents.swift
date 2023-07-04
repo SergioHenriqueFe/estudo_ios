@@ -138,7 +138,7 @@ print(peso)
 print("Double transformado em int")
 print(pesoInt)
 
-//! force-unwrap tenho certeza que age é uma String e irá ser convertida em int --> Não é usado
+//" ! " force-unwrap  tenho certeza que age é uma String e irá ser convertida em int --> Não é usado
 
 var age :String = "27"
 var ageInt :Int = Int(age)!
