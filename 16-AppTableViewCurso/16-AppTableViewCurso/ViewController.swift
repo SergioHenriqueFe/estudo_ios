@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         self.configTableview()
     }
     //MARK: 8 Passo
+    
     //MARK: 2 Passo -- Assinatura register a cursrtom..
     func configTableview(){
         // realizando a assintura de Delegate e dataSource, após isso é importante fazer a extension da viewController para declarar a UITableViewDelegate e UITableViewDataSource
