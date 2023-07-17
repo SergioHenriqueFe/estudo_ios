@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Desafio-TableViewComCollectionView
+//  Desafio-CollectionComTableview
 //
-//  Created by Sergio henrique Ferreira on 14/07/23.
+//  Created by Sergio henrique Ferreira on 17/07/23.
 //
 
 import UIKit
