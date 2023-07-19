@@ -13,8 +13,8 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var colletionView: UICollectionView!
     
     var listCar :[String] = ["car1","car2","car3","car4"]
-    static let identifier :String = "CustomTableViewCell"
     
+    static let identifier :String = "CustomTableViewCell"
     static func nib()->UINib {
         return UINib(nibName: self.identifier, bundle: nil)
     }
