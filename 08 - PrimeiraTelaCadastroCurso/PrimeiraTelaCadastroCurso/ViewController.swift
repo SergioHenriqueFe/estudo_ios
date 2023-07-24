@@ -69,6 +69,7 @@ extension ViewController : UITextFieldDelegate {
         //é para quando o teclado desaparece
         //quando o teclado abaixar voltar para borda =
         textField.layer.borderWidth = 0
+        validateTExtField()
         
 }
     
