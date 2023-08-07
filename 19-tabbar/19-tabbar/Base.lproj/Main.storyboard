@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22113.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JFp-WZ-RKq">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22089"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tela02-->
+        <scene sceneID="aRd-B3-QCm">
+            <objects>
+                <viewController storyboardIdentifier="Tela02" id="XCV-4A-d6E" customClass="Tela02" customModule="_9_tabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SX0-WC-V82">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Rnh-uA-SNf"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tela02" image="arrow.up.trash.fill" catalog="system" id="LIR-SO-T10"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iab-0B-liS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="398" y="223"/>
+        </scene>
+        <!--Tela 03-->
+        <scene sceneID="ITI-IK-lRL">
+            <objects>
+                <viewController storyboardIdentifier="Tela03" id="kIc-5g-OZw" customClass="Tela03" customModule="_9_tabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mY5-3j-4ky">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="pXO-yn-Ur5"/>
+                        <color key="backgroundColor" systemColor="tintColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tela 03" id="UDt-3x-ikh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3u9-aJ-xFh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1633" y="-258"/>
+        </scene>
+        <!--Tela 01-->
+        <scene sceneID="gIf-eO-z57">
+            <objects>
+                <viewController storyboardIdentifier="Tela01" id="50T-HW-qc3" customClass="Tela01" customModule="_9_tabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qHC-qN-IFC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="o5O-sj-kAz"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tela 01" image="scribble" catalog="system" id="XCw-Ku-fJb">
+                        <color key="badgeColor" systemColor="systemIndigoColor"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G2h-2j-C8W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="359" y="-561"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ivt-uu-rlD">
+            <objects>
+                <tabBarController id="JFp-WZ-RKq" customClass="TabBarController" customModule="_9_tabbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SQ2-oC-XfC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="50T-HW-qc3" kind="relationship" relationship="viewControllers" id="g1J-tP-LB2"/>
+                        <segue destination="XCV-4A-d6E" kind="relationship" relationship="viewControllers" id="vCn-V0-vSl"/>
+                        <segue destination="kIc-5g-OZw" kind="relationship" relationship="viewControllers" id="pZJ-L4-fwy"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hnN-VU-TMk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-546" y="-257"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.up.trash.fill" catalog="system" width="117" height="128"/>
+        <image name="scribble" catalog="system" width="128" height="117"/>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
