@@ -77,7 +77,7 @@ class LoginScreen: UIView {
         
     }()
     @objc func tappedLoginButton(_ sender: UIButton){
-        print("Botão certo ")
+       
     }
     
     //MARK: 2 passo

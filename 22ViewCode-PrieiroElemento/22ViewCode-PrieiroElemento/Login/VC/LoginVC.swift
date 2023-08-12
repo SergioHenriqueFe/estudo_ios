@@ -32,8 +32,9 @@ class LoginVC: UIViewController {
 //MARK: 4 passo para ação do button - criar a extension para o protocolo
 extension LoginVC: LoginScreenProtocol{
     func tappedLoginButton() {
-        
-    }  
+        let vc: HomeVC = HomeVC()
+        vc.present(vc, animated: true)
+    }
 }
 //MARK: Criação do delegate para textFiled
 //vantagens do delegate, setas as caracteristicas
