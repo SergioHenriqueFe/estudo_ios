@@ -53,7 +53,7 @@ extension HomeVC: HomeScreenProtocol {
 extension HomeVC: SelectionVCProtocol{
     func updatemacbook() {
         view.backgroundColor = .green
-        homeScreen?.descriptionLabel.text = "Teste protocolo"
+        homeScreen?.descriptionLabel.textx= "Teste protocolo"
 
     }
     

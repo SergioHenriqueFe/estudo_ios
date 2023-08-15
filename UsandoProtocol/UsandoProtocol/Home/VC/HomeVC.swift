@@ -1,43 +1,42 @@
 //
 //  ViewController.swift
-//  teste033
+//  UsandoProtocol
 //
 //  Created by Sergio henrique Ferreira on 15/08/23.
 //
 
 import UIKit
 
-class Home: UIViewController {
+class HomeVC: UIViewController {
+
     var homeScreen : HomeScreen?
     override func loadView() {
         homeScreen = HomeScreen()
         view = homeScreen
     }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         homeScreen?.delegate(delegate: self)
-}
+    }
 
 
 }
 
-extension Home : HomeScreenProtocol{
-    func tappedGotoPageButton() {
-        print("acessando outra pagina")
-        let vc : Page2 = Page2()
+extension HomeVC : HomeScreenProtocol {
+    func tappedToGoPag() {
+        print("ação realizada na ViewController")
+        let vc : Page2VC = Page2VC()
         present(vc, animated: true)
+
         vc.delegate(delegate: self)
-    
     }
     
     
 }
 
-extension Home : Page2Protocol{
+extension HomeVC : Page2VCProtocol {
     func back() {
-        view.backgroundColor = .green
-        
+        homeScreen?.backgroundColor = .blue
     }
     
     
