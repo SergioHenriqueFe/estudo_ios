@@ -8,7 +8,17 @@
 import UIKit
 
 class HomeViewModel {
+    private var posts = [
+        Posts(profileImage: "img2", userName: "jack", postImage: "post1"),
+        Posts(profileImage: "img4", userName: "samuel", postImage: "post2"),
+        Posts(profileImage: "img3", userName: "jaJck", postImage: "post3"),
+        Posts(profileImage: "img6", userName: "2jack", postImage: "post4"),
     
+    ]
+    // para passar a lista acima de privado para public
+    public var getListPost:[Posts]{
+        posts
+    }
     private var story = [
         Stories(image: "img1", userName: "add Story"),
         Stories(image: "img2", userName: "jack"),
@@ -18,7 +28,7 @@ class HomeViewModel {
         Stories(image: "img6", userName: "puggy_101"),
         Stories(image: "img7", userName: "dheeraj_ks")
     ]
-    // para o retorno
+    // para o retorno -- > tipo da variavel computada.
     public var getListStory:[Stories]{
         story
     }

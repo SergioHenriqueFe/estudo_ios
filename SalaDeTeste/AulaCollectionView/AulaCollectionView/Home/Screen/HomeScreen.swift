@@ -14,6 +14,7 @@ class HomeScreen: UIView {
         let cv : UICollectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         cv.showsHorizontalScrollIndicator = false
         cv.register(StoryCardCollectionViewCell.self, forCellWithReuseIdentifier: StoryCardCollectionViewCell.identifier)
+        cv.register(PostCardCollectionViewCell.self, forCellWithReuseIdentifier: PostCardCollectionViewCell.identifer)
         cv.backgroundColor = .clear
         return cv
     }()
@@ -28,6 +29,7 @@ class HomeScreen: UIView {
         super.init(frame: frame)
         addElements()
         configCollectionView()
+        backgroundColor = .appBackGroundColor
     }
     
     required init?(coder: NSCoder) {
