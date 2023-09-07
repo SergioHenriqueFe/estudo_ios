@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		3104E853B81157E85558D8DB /* Pods-TelaDeLoginViewCode + Cocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelaDeLoginViewCode + Cocoapods.release.xcconfig"; path = "Target Support Files/Pods-TelaDeLoginViewCode + Cocoapods/Pods-TelaDeLoginViewCode + Cocoapods.release.xcconfig"; sourceTree = "<group>"; };
-		51A3E0DC18FDC0AA661A00BE /* Pods_TelaDeLoginViewCode___Cocoapods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelaDeLoginViewCode___Cocoapods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A3E0DC18FDC0AA661A00BE /* Pods_TelaDeLoginViewCode___Cocoapods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_TelaDeLoginViewCode___Cocoapods.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C031AEED4FC1BA9B007A60 /* Pods-TelaDeLoginViewCode + Cocoapods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelaDeLoginViewCode + Cocoapods.debug.xcconfig"; path = "Target Support Files/Pods-TelaDeLoginViewCode + Cocoapods/Pods-TelaDeLoginViewCode + Cocoapods.debug.xcconfig"; sourceTree = "<group>"; };
 		B1E84BEF2AAA167700BAF428 /* TelaDeLoginViewCode + Cocoapods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TelaDeLoginViewCode + Cocoapods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1E84BF22AAA167700BAF428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +58,6 @@
 				56C031AEED4FC1BA9B007A60 /* Pods-TelaDeLoginViewCode + Cocoapods.debug.xcconfig */,
 				3104E853B81157E85558D8DB /* Pods-TelaDeLoginViewCode + Cocoapods.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,6 +406,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HM453M4XMZ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TelaDeLoginViewCode + Cocoapods/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -429,6 +429,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = NO;
 			};
 			name = Debug;
 		};
@@ -441,6 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HM453M4XMZ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TelaDeLoginViewCode + Cocoapods/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -463,6 +465,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = NO;
 			};
 			name = Release;
 		};
