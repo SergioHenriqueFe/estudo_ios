@@ -35,7 +35,7 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: StoryCardCollectionViewCell.identifier, for: indexPath) as? StoryCardCollectionViewCell
             cell?.setupCell(listStory: viewModel.getListStory)
             return cell ?? UICollectionViewCell()
-        }else{
+        }else {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: PostCardCollectionViewCell.identifer, for: indexPath) as? PostCardCollectionViewCell
             cell?.setupCell(listPosts: viewModel.getListPost)
             return cell ?? UICollectionViewCell()

@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1E84BF32AAA167700BAF428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84BF22AAA167700BAF428 /* AppDelegate.swift */; };
+		B1E84BF52AAA167700BAF428 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84BF42AAA167700BAF428 /* SceneDelegate.swift */; };
+		B1E84BF72AAA167700BAF428 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84BF62AAA167700BAF428 /* LoginVC.swift */; };
+		B1E84BFC2AAA167B00BAF428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E84BFB2AAA167B00BAF428 /* Assets.xcassets */; };
+		B1E84BFF2AAA167B00BAF428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E84BFD2AAA167B00BAF428 /* LaunchScreen.storyboard */; };
+		B1E84C0D2AAA19B400BAF428 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C0C2AAA19B400BAF428 /* LoginScreen.swift */; };
+		B1E84C102AAA1D4F00BAF428 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C0F2AAA1D4F00BAF428 /* HomeVC.swift */; };
+		C1D61335BF9CB9F3D82AC398 /* Pods_TelaDeLoginViewCode___Cocoapods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A3E0DC18FDC0AA661A00BE /* Pods_TelaDeLoginViewCode___Cocoapods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3104E853B81157E85558D8DB /* Pods-TelaDeLoginViewCode + Cocoapods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelaDeLoginViewCode + Cocoapods.release.xcconfig"; path = "Target Support Files/Pods-TelaDeLoginViewCode + Cocoapods/Pods-TelaDeLoginViewCode + Cocoapods.release.xcconfig"; sourceTree = "<group>"; };
+		51A3E0DC18FDC0AA661A00BE /* Pods_TelaDeLoginViewCode___Cocoapods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TelaDeLoginViewCode___Cocoapods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C031AEED4FC1BA9B007A60 /* Pods-TelaDeLoginViewCode + Cocoapods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelaDeLoginViewCode + Cocoapods.debug.xcconfig"; path = "Target Support Files/Pods-TelaDeLoginViewCode + Cocoapods/Pods-TelaDeLoginViewCode + Cocoapods.debug.xcconfig"; sourceTree = "<group>"; };
+		B1E84BEF2AAA167700BAF428 /* TelaDeLoginViewCode + Cocoapods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TelaDeLoginViewCode + Cocoapods.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E84BF22AAA167700BAF428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1E84BF42AAA167700BAF428 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B1E84BF62AAA167700BAF428 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B1E84BFB2AAA167B00BAF428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1E84BFE2AAA167B00BAF428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1E84C002AAA167B00BAF428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E84C0C2AAA19B400BAF428 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		B1E84C0F2AAA1D4F00BAF428 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1E84BEC2AAA167700BAF428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D61335BF9CB9F3D82AC398 /* Pods_TelaDeLoginViewCode___Cocoapods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5649AD505FF3CEEC7849D003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51A3E0DC18FDC0AA661A00BE /* Pods_TelaDeLoginViewCode___Cocoapods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8922C46415C9024777ECAC7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56C031AEED4FC1BA9B007A60 /* Pods-TelaDeLoginViewCode + Cocoapods.debug.xcconfig */,
+				3104E853B81157E85558D8DB /* Pods-TelaDeLoginViewCode + Cocoapods.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1E84BE62AAA167700BAF428 = {
+			isa = PBXGroup;
+			children = (
+				B1E84BF12AAA167700BAF428 /* TelaDeLoginViewCode + Cocoapods */,
+				B1E84BF02AAA167700BAF428 /* Products */,
+				8922C46415C9024777ECAC7D /* Pods */,
+				5649AD505FF3CEEC7849D003 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1E84BF02AAA167700BAF428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84BEF2AAA167700BAF428 /* TelaDeLoginViewCode + Cocoapods.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1E84BF12AAA167700BAF428 /* TelaDeLoginViewCode + Cocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84C0A2AAA198000BAF428 /* Home */,
+				B1E84C072AAA182B00BAF428 /* Login */,
+				B1E84C062AAA180B00BAF428 /* Source */,
+				B1E84C002AAA167B00BAF428 /* Info.plist */,
+			);
+			path = "TelaDeLoginViewCode + Cocoapods";
+			sourceTree = "<group>";
+		};
+		B1E84C062AAA180B00BAF428 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84BFD2AAA167B00BAF428 /* LaunchScreen.storyboard */,
+				B1E84BFB2AAA167B00BAF428 /* Assets.xcassets */,
+				B1E84BF42AAA167700BAF428 /* SceneDelegate.swift */,
+				B1E84BF22AAA167700BAF428 /* AppDelegate.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B1E84C072AAA182B00BAF428 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84C092AAA183F00BAF428 /* Screen */,
+				B1E84C082AAA183400BAF428 /* ViewController */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B1E84C082AAA183400BAF428 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84BF62AAA167700BAF428 /* LoginVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B1E84C092AAA183F00BAF428 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84C0C2AAA19B400BAF428 /* LoginScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		B1E84C0A2AAA198000BAF428 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84C0B2AAA198600BAF428 /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B1E84C0B2AAA198600BAF428 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84C0F2AAA1D4F00BAF428 /* HomeVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1E84BEE2AAA167700BAF428 /* TelaDeLoginViewCode + Cocoapods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E84C032AAA167B00BAF428 /* Build configuration list for PBXNativeTarget "TelaDeLoginViewCode + Cocoapods" */;
+			buildPhases = (
+				7CD6CF952ADF38E36F53D495 /* [CP] Check Pods Manifest.lock */,
+				B1E84BEB2AAA167700BAF428 /* Sources */,
+				B1E84BEC2AAA167700BAF428 /* Frameworks */,
+				B1E84BED2AAA167700BAF428 /* Resources */,
+				268CB51E8351B9A89B7F9001 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TelaDeLoginViewCode + Cocoapods";
+			productName = "TelaDeLoginViewCode + Cocoapods";
+			productReference = B1E84BEF2AAA167700BAF428 /* TelaDeLoginViewCode + Cocoapods.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1E84BE72AAA167700BAF428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B1E84BEE2AAA167700BAF428 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B1E84BEA2AAA167700BAF428 /* Build configuration list for PBXProject "TelaDeLoginViewCode + Cocoapods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1E84BE62AAA167700BAF428;
+			productRefGroup = B1E84BF02AAA167700BAF428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1E84BEE2AAA167700BAF428 /* TelaDeLoginViewCode + Cocoapods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1E84BED2AAA167700BAF428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E84BFF2AAA167B00BAF428 /* LaunchScreen.storyboard in Resources */,
+				B1E84BFC2AAA167B00BAF428 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		268CB51E8351B9A89B7F9001 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TelaDeLoginViewCode + Cocoapods/Pods-TelaDeLoginViewCode + Cocoapods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TelaDeLoginViewCode + Cocoapods/Pods-TelaDeLoginViewCode + Cocoapods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TelaDeLoginViewCode + Cocoapods/Pods-TelaDeLoginViewCode + Cocoapods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD6CF952ADF38E36F53D495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TelaDeLoginViewCode + Cocoapods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1E84BEB2AAA167700BAF428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E84BF72AAA167700BAF428 /* LoginVC.swift in Sources */,
+				B1E84C102AAA1D4F00BAF428 /* HomeVC.swift in Sources */,
+				B1E84C0D2AAA19B400BAF428 /* LoginScreen.swift in Sources */,
+				B1E84BF32AAA167700BAF428 /* AppDelegate.swift in Sources */,
+				B1E84BF52AAA167700BAF428 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1E84BFD2AAA167B00BAF428 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E84BFE2AAA167B00BAF428 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1E84C012AAA167B00BAF428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1E84C022AAA167B00BAF428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1E84C042AAA167B00BAF428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56C031AEED4FC1BA9B007A60 /* Pods-TelaDeLoginViewCode + Cocoapods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HM453M4XMZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TelaDeLoginViewCode + Cocoapods/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sergioHenrique.TelaDeLoginViewCode---Cocoapods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1E84C052AAA167B00BAF428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3104E853B81157E85558D8DB /* Pods-TelaDeLoginViewCode + Cocoapods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HM453M4XMZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TelaDeLoginViewCode + Cocoapods/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sergioHenrique.TelaDeLoginViewCode---Cocoapods";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1E84BEA2AAA167700BAF428 /* Build configuration list for PBXProject "TelaDeLoginViewCode + Cocoapods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E84C012AAA167B00BAF428 /* Debug */,
+				B1E84C022AAA167B00BAF428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E84C032AAA167B00BAF428 /* Build configuration list for PBXNativeTarget "TelaDeLoginViewCode + Cocoapods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E84C042AAA167B00BAF428 /* Debug */,
+				B1E84C052AAA167B00BAF428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1E84BE72AAA167700BAF428 /* Project object */;
+}
