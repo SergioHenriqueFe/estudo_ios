@@ -21,6 +21,7 @@ class LoginVC: UIViewController {
         super.viewDidLoad()
         loginScreen?.delegate(delegate: self)
         loginScreen?.configTextFieldDelegate(delegate: self)
+        viewModel.delegate(delegate: self)
     }
 
 
@@ -35,9 +36,21 @@ extension LoginVC: LoginScreenProtocol {
 //        let nav = UINavigationController(rootViewController: vc)
 //        present(vc, animated: true)
 //        navigationController?.pushViewController(vc, animated: true)
-        viewModel.registerUser(email: loginScreen?.emailTextField.text ?? "" , passsword: loginScreen?.passwordTextField.text ?? "")
+        viewModel.login(email: loginScreen?.emailTextField.text ?? "" , passsword: loginScreen?.passwordTextField.text ?? "")
     }
  
+}
+
+extension LoginVC : LoginViewModelProtocol{
+    func errorLogin(errorMessage: String) {
+        print(#function)
+        Alert(controller: self).showAlertInformation(title: "Error Login!", message: errorMessage)
+    }
+    
+    func succesLogin() {
+        let vc : HomeVC = HomeVC()
+        present(vc,animated:  true)
+    }
 }
 
 extension LoginVC: UITextFieldDelegate {

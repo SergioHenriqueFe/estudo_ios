@@ -59,6 +59,7 @@
 		B1E84C4F2AAB8D8D00BAF428 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C4C2AAB8D8D00BAF428 /* LoginScreen.swift */; };
 		B1E84C502AAB8D8D00BAF428 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C4E2AAB8D8D00BAF428 /* LoginVC.swift */; };
 		B1E84C542AAC088100BAF428 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C532AAC088100BAF428 /* LoginViewModel.swift */; };
+		B1E84C572AADE4BF00BAF428 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C562AADE4BE00BAF428 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		B1E84C4C2AAB8D8D00BAF428 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		B1E84C4E2AAB8D8D00BAF428 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B1E84C532AAC088100BAF428 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		B1E84C562AADE4BE00BAF428 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		B15F40A72A92A73D00854606 /* AulaCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				B1E84C552AADE4A800BAF428 /* Alert */,
 				B1D680102A96130800C0D0B0 /* Model */,
 				B15F40BE2A92A76900854606 /* Extension */,
 				B1E84C4A2AAB8D8D00BAF428 /* Login */,
@@ -371,6 +374,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		B1E84C552AADE4A800BAF428 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84C562AADE4BE00BAF428 /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -477,6 +488,7 @@
 				B15F40C12A92A8BC00854606 /* HomeScreen.swift in Sources */,
 				B17DFEE92AA648DB00899395 /* PostCollectionViewCellScreen.swift in Sources */,
 				B1E84C542AAC088100BAF428 /* LoginViewModel.swift in Sources */,
+				B1E84C572AADE4BF00BAF428 /* Alert.swift in Sources */,
 				B1E84C502AAB8D8D00BAF428 /* LoginVC.swift in Sources */,
 				B1D680342A96192600C0D0B0 /* StoryCollectionViewCellScreen.swift in Sources */,
 				B1D680FC2A9C2C8C00C0D0B0 /* PostCardCollectionViewCell.swift in Sources */,
