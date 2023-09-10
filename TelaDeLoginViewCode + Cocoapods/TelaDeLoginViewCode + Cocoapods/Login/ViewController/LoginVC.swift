@@ -9,7 +9,8 @@ import UIKit
 
 class LoginVC: UIViewController {
     
-    var loginScreen: LoginScreen?
+    private var loginScreen: LoginScreen?
+    private var viewModel: LoginViewModel = LoginViewModel()
     
     override func loadView() {
         loginScreen = LoginScreen()
@@ -26,13 +27,15 @@ class LoginVC: UIViewController {
 }
 
 extension LoginVC: LoginScreenProtocol {
+    
     func tappedLoginButton() {
         print("chegou na VC")
-        let vc: HomeVC = HomeVC()
+//        let vc: HomeVC = HomeVC()
         // Caso queira que a VC seja uma UINavigationController
 //        let nav = UINavigationController(rootViewController: vc)
 //        present(vc, animated: true)
-        navigationController?.pushViewController(vc, animated: true)
+//        navigationController?.pushViewController(vc, animated: true)
+        viewModel.registerUser(email: loginScreen?.emailTextField.text ?? "" , passsword: loginScreen?.passwordTextField.text ?? "")
     }
  
 }
