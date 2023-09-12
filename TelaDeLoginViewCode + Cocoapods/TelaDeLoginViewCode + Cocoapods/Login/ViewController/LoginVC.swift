@@ -16,6 +16,11 @@ class LoginVC: UIViewController {
         loginScreen = LoginScreen()
         view = loginScreen
     }
+  // para tirar a navigation transparente que existe quando é criado uma navigationController
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.isHidden = true
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +33,14 @@ class LoginVC: UIViewController {
 }
 
 extension LoginVC: LoginScreenProtocol {
+    func tappedRegisterButton() {
+        print(#function)
+        let vc : RegisterVC = RegisterVC()
+        navigationController?.pushViewController(vc, animated: true)
+        
+//        fatalError()
+    }
+    
     
     func tappedLoginButton() {
         print("chegou na VC")

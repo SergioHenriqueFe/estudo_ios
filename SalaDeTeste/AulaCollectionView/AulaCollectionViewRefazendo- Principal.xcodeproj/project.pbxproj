@@ -60,6 +60,9 @@
 		B1E84C502AAB8D8D00BAF428 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C4E2AAB8D8D00BAF428 /* LoginVC.swift */; };
 		B1E84C542AAC088100BAF428 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C532AAC088100BAF428 /* LoginViewModel.swift */; };
 		B1E84C572AADE4BF00BAF428 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C562AADE4BE00BAF428 /* Alert.swift */; };
+		B1E84C5F2AADEA6300BAF428 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C5C2AADE87A00BAF428 /* RegisterScreen.swift */; };
+		B1E84C602AADEA7300BAF428 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C5E2AADE87A00BAF428 /* RegisterViewModel.swift */; };
+		B1E84C612AADEA7A00BAF428 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C5A2AADE87A00BAF428 /* RegisterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +94,9 @@
 		B1E84C4E2AAB8D8D00BAF428 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B1E84C532AAC088100BAF428 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		B1E84C562AADE4BE00BAF428 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		B1E84C5A2AADE87A00BAF428 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		B1E84C5C2AADE87A00BAF428 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
+		B1E84C5E2AADE87A00BAF428 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +156,7 @@
 		B15F40A72A92A73D00854606 /* AulaCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				B1E84C582AADE83800BAF428 /* RegisterVC */,
 				B1E84C552AADE4A800BAF428 /* Alert */,
 				B1D680102A96130800C0D0B0 /* Model */,
 				B15F40BE2A92A76900854606 /* Extension */,
@@ -382,6 +389,40 @@
 			path = Alert;
 			sourceTree = "<group>";
 		};
+		B1E84C582AADE83800BAF428 /* RegisterVC */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84C5D2AADE87A00BAF428 /* ViewModel */,
+				B1E84C5B2AADE87A00BAF428 /* Screen */,
+				B1E84C592AADE87A00BAF428 /* ViewController */,
+			);
+			path = RegisterVC;
+			sourceTree = "<group>";
+		};
+		B1E84C592AADE87A00BAF428 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84C5A2AADE87A00BAF428 /* RegisterVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B1E84C5B2AADE87A00BAF428 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84C5C2AADE87A00BAF428 /* RegisterScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		B1E84C5D2AADE87A00BAF428 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84C5E2AADE87A00BAF428 /* RegisterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -486,6 +527,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B15F40C12A92A8BC00854606 /* HomeScreen.swift in Sources */,
+				B1E84C602AADEA7300BAF428 /* RegisterViewModel.swift in Sources */,
 				B17DFEE92AA648DB00899395 /* PostCollectionViewCellScreen.swift in Sources */,
 				B1E84C542AAC088100BAF428 /* LoginViewModel.swift in Sources */,
 				B1E84C572AADE4BF00BAF428 /* Alert.swift in Sources */,
@@ -497,6 +539,7 @@
 				B15F40C72A93704900854606 /* HomeViewModel.swift in Sources */,
 				B1D680312A9618C100C0D0B0 /* StoryCollectionViewCell.swift in Sources */,
 				B1D6800F2A950AF100C0D0B0 /* StoryCardViewModel.swift in Sources */,
+				B1E84C5F2AADEA6300BAF428 /* RegisterScreen.swift in Sources */,
 				B1E84C4F2AAB8D8D00BAF428 /* LoginScreen.swift in Sources */,
 				B17DFEE62AA6489C00899395 /* PostCollectionViewCell.swift in Sources */,
 				B1D681042A9C323700C0D0B0 /* PostCardViewModel.swift in Sources */,
@@ -508,6 +551,7 @@
 				B15F40AB2A92A73D00854606 /* SceneDelegate.swift in Sources */,
 				B15F40EE2A93773F00854606 /* StoryCardCollectionViewCellScreen.swift in Sources */,
 				B1D681012A9C300100C0D0B0 /* Posts.swift in Sources */,
+				B1E84C612AADEA7A00BAF428 /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,7 +603,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -651,6 +695,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = HM453M4XMZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AulaCollectionView/Info.plist;
