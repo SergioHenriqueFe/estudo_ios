@@ -19,6 +19,7 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         homeScreen?.configProtocolCollectionView(delegate: self, dataSource: self)
+        viewModel.fetchAllRequest()
     }
 
 

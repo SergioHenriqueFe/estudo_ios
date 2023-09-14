@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6C68F0BC-4DEC-4C52-8238-1E5F5F94E536"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6C8B043A-C066-4197-9628-106120B36AE0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AulaCollectionView/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "fetchAllRequest()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6C8B043A-C066-4197-9628-106120B36AE0 - 96520cc500cce7a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AulaCollectionView.HomeData&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AulaCollectionView.HomeViewModel.fetchAllRequest() -&gt; ()"
+                  moduleName = "AulaCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergiohenriqueferreira/Documents/projetos/estudos_swifit/estudo_ios/SalaDeTeste/AulaCollectionView%20-%20alomofire/AulaCollectionView/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "6C8B043A-C066-4197-9628-106120B36AE0 - 96520cc500cd1928"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AulaCollectionView.HomeData&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AulaCollectionView.HomeViewModel.fetchAllRequest() -&gt; ()"
+                  moduleName = "AulaCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergiohenriqueferreira/Documents/projetos/estudos_swifit/estudo_ios/SalaDeTeste/AulaCollectionView%20-%20alomofire/AulaCollectionView/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68A3E23A-ECB1-4940-9F05-D53BC694EED2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AulaCollectionView/Home/ViewModel/HomeViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "fetchAllRequest()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "68A3E23A-ECB1-4940-9F05-D53BC694EED2 - 96520cc500cce7c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AulaCollectionView.HomeData&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AulaCollectionView.HomeViewModel.fetchAllRequest() -&gt; ()"
+                  moduleName = "AulaCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergiohenriqueferreira/Documents/projetos/estudos_swifit/estudo_ios/SalaDeTeste/AulaCollectionView%20-%20alomofire/AulaCollectionView/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "68A3E23A-ECB1-4940-9F05-D53BC694EED2 - 96520cc500cd19d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AulaCollectionView.HomeData&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AulaCollectionView.HomeViewModel.fetchAllRequest() -&gt; ()"
+                  moduleName = "AulaCollectionView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sergiohenriqueferreira/Documents/projetos/estudos_swifit/estudo_ios/SalaDeTeste/AulaCollectionView%20-%20alomofire/AulaCollectionView/Home/ViewModel/HomeViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "888">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

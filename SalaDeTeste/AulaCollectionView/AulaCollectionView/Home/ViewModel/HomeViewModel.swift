@@ -8,9 +8,11 @@
 import UIKit
 
 class HomeViewModel {
+    private var service :HomeService = HomeService()
     
     private var posts = [Posts]()
     private var story = [Stories]()
+    
     public var getListPost:[Posts]{
         posts
     }
@@ -50,6 +52,15 @@ class HomeViewModel {
             return CGSize(width: 120, height: frame.height)
         }else {
             return CGSize(width: frame.width - 120, height: frame.height)
+        }
+    }
+    
+    public func fetchAllRequest(){
+        service.getHomeDataJson { homeData, error in
+            if error == nil{
+                self.posts = homeData?.posts ?? []
+                self.story = homeData?.stories ?? []
+            }
         }
     }
     
