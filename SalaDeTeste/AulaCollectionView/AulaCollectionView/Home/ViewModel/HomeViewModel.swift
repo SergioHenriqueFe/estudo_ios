@@ -8,30 +8,38 @@
 import UIKit
 
 class HomeViewModel {
-    private var posts = [
-        Posts(profileImage: "img2", userName: "jack", postImage: "post1"),
-        Posts(profileImage: "img4", userName: "samuel", postImage: "post2"),
-        Posts(profileImage: "img3", userName: "jaJck", postImage: "post3"),
-        Posts(profileImage: "img6", userName: "2jack", postImage: "post4"),
     
-    ]
-    // para passar a lista acima de privado para public
+    private var posts = [Posts]()
+    private var story = [Stories]()
     public var getListPost:[Posts]{
         posts
     }
-    private var story = [
-        Stories(image: "img1", userName: "add Story"),
-        Stories(image: "img2", userName: "jack"),
-        Stories(image: "img3", userName: "carolina"),
-        Stories(image: "img4", userName: "samuel"),
-        Stories(image: "img5", userName: "ariana josep"),
-        Stories(image: "img6", userName: "puggy_101"),
-        Stories(image: "img7", userName: "dheeraj_ks")
-    ]
-    // para o retorno -- > tipo da variavel computada.
     public var getListStory:[Stories]{
         story
     }
+    
+    
+
+    //a forma a baixo é inserindo o dado manual
+//    private var posts = [
+//        Posts(profileImage: "img2", userName: "jack", postImage: "post1"),
+//        Posts(profileImage: "img4", userName: "samuel", postImage: "post2"),
+//        Posts(profileImage: "img3", userName: "jaJck", postImage: "post3"),
+//        Posts(profileImage: "img6", userName: "2jack", postImage: "post4"),
+//    
+//    ]
+    // para passar a lista acima de privado para public
+//    private var story = [
+//        Stories(image: "img1", userName: "add Story"),
+//        Stories(image: "img2", userName: "jack"),
+//        Stories(image: "img3", userName: "carolina"),
+//        Stories(image: "img4", userName: "samuel"),
+//        Stories(image: "img5", userName: "ariana josep"),
+//        Stories(image: "img6", userName: "puggy_101"),
+//        Stories(image: "img7", userName: "dheeraj_ks")
+//    ]
+    // para o retorno -- > tipo da variavel computada.
+    
     
     public var numberOfItems: Int{
         2

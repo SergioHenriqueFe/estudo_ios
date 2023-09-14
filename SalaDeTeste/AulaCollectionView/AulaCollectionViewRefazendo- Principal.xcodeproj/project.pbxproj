@@ -63,6 +63,9 @@
 		B1E84C5F2AADEA6300BAF428 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C5C2AADE87A00BAF428 /* RegisterScreen.swift */; };
 		B1E84C602AADEA7300BAF428 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C5E2AADE87A00BAF428 /* RegisterViewModel.swift */; };
 		B1E84C612AADEA7A00BAF428 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C5A2AADE87A00BAF428 /* RegisterVC.swift */; };
+		B1E84C662AB06DAB00BAF428 /* HomeData.json in Resources */ = {isa = PBXBuildFile; fileRef = B1E84C652AB06DAB00BAF428 /* HomeData.json */; };
+		B1E84C692AB0D1D300BAF428 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C682AB0D1D300BAF428 /* HomeService.swift */; };
+		B1E84C6B2AB32DEA00BAF428 /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E84C6A2AB32DEA00BAF428 /* HomeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +100,9 @@
 		B1E84C5A2AADE87A00BAF428 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		B1E84C5C2AADE87A00BAF428 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		B1E84C5E2AADE87A00BAF428 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		B1E84C652AB06DAB00BAF428 /* HomeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HomeData.json; sourceTree = "<group>"; };
+		B1E84C682AB0D1D300BAF428 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		B1E84C6A2AB32DEA00BAF428 /* HomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,8 @@
 		B15F40A72A92A73D00854606 /* AulaCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				B1E84C672AB0D1B900BAF428 /* Service */,
+				B1E84C642AB06D7600BAF428 /* Mock */,
 				B1E84C582AADE83800BAF428 /* RegisterVC */,
 				B1E84C552AADE4A800BAF428 /* Alert */,
 				B1D680102A96130800C0D0B0 /* Model */,
@@ -257,6 +265,7 @@
 			children = (
 				B1D680112A96132000C0D0B0 /* Stories.swift */,
 				B1D681002A9C300100C0D0B0 /* Posts.swift */,
+				B1E84C6A2AB32DEA00BAF428 /* HomeData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -423,6 +432,22 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		B1E84C642AB06D7600BAF428 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84C652AB06DAB00BAF428 /* HomeData.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		B1E84C672AB0D1B900BAF428 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B1E84C682AB0D1D300BAF428 /* HomeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -513,6 +538,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1E84C662AB06DAB00BAF428 /* HomeData.json in Resources */,
 				B15F40B52A92A74000854606 /* LaunchScreen.storyboard in Resources */,
 				B15F40B22A92A74000854606 /* Assets.xcassets in Resources */,
 				B1E84C122AAA6D1600BAF428 /* GoogleService-Info.plist in Resources */,
@@ -530,6 +556,7 @@
 				B1E84C602AADEA7300BAF428 /* RegisterViewModel.swift in Sources */,
 				B17DFEE92AA648DB00899395 /* PostCollectionViewCellScreen.swift in Sources */,
 				B1E84C542AAC088100BAF428 /* LoginViewModel.swift in Sources */,
+				B1E84C6B2AB32DEA00BAF428 /* HomeData.swift in Sources */,
 				B1E84C572AADE4BF00BAF428 /* Alert.swift in Sources */,
 				B1E84C502AAB8D8D00BAF428 /* LoginVC.swift in Sources */,
 				B1D680342A96192600C0D0B0 /* StoryCollectionViewCellScreen.swift in Sources */,
@@ -550,6 +577,7 @@
 				B15F40C32A92A99A00854606 /* UIView + Extension.swift in Sources */,
 				B15F40AB2A92A73D00854606 /* SceneDelegate.swift in Sources */,
 				B15F40EE2A93773F00854606 /* StoryCardCollectionViewCellScreen.swift in Sources */,
+				B1E84C692AB0D1D300BAF428 /* HomeService.swift in Sources */,
 				B1D681012A9C300100C0D0B0 /* Posts.swift in Sources */,
 				B1E84C612AADEA7A00BAF428 /* RegisterVC.swift in Sources */,
 			);

@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-struct Stories {
+struct Stories:Codable {
     
     let image: String
     let userName: String
